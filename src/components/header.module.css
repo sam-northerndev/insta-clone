@@ -1,0 +1,22 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  margin: 0px 30px;
+}
+
+@media screen and (max-width: 440px) {
+  .logo {
+    margin: 0px 10px;
+  }
+}
